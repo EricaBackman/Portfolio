@@ -1,13 +1,17 @@
 import * as React from "react"
-import 'bootstrap/dist/css/bootstrap.min.css';
-import '../css/style.css';
-import {Link} from "gatsby";
+// import 'bootstrap/dist/css/bootstrap.min.css'
+import '../css/style.css'
+// import {Link} from "gatsby";
+import Header from "./header"
+import Footer from "./footer"
+import Navbar from "./navbar"
 
 const Layout = ({ children }) => (
     <>
-      <header><Link to="/">Gatsby ITHS-starter</Link></header>
+      <Navbar />
+      <Header />
       <main>{children}</main>
-      <footer>Footer</footer>
+      <Footer />
     </>
   )
 

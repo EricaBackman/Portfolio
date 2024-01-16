@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@100;200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;0,6..96,600;0,6..96,700;0,6..96,800;0,6..96,900;1,6..96,400;1,6..96,500;1,6..96,600;1,6..96,700;1,6..96,800;1,6..96,900&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.nav-logo {
+  color: #ffffff;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 32px;
+  text-decoration: none;
+  font-family: 'Bodoni Moda', serif;
+}
+
+.nav-container {
+  color: white;
+  background-color: #252222;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px;
+}
+
+.nav-list {
+ color: #ffffff;
+ list-style: none;
+}
+
+@media (min-width: 600px) {
+  .nav-list {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.nav-links {
+  text-decoration: none;
+  font-family: 'Encode Sans SC', sans-serif;
+
+}
+
+.nav-items {
+  color: #ffffff;
+
+}
+
+.header-container {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-image {
+  width: 100%;
+}
+
+.titles {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  color: white;
+  text-align: center;
+}
+
+.title-h1 {
+  font-size: 48px;
+}
+
+.title-first {
+  font-family: 'Bodoni Moda', serif;
+  font-size: 48px;
+}
+
+.title-second {
+  font-family: 'Bodoni Moda', serif;
+  font-size: 48px;
+}
+
+.title-third {
+  font-family: 'Bodoni Moda', serif;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.presentation-container {
+  background-color: #252222;
+  color: white;
+  padding: 20px 0;
+}
+
+.presentation-title {
+  font-family: 'Dancing Script', cursive;
+  font-size: 42px;
+  margin: 20px 10px 10px 40px;
+}
+
+.letter {
+  font-family: 'Encode Sans SC', sans-serif;
+  font-weight: 100;
+  padding: 0 40px;
+}
+
+.signature {
+  display: flex;
+  justify-content: end;
+  margin: 10px 40px 10px 10px;
+  font-family: 'Dancing Script', cursive;
+
+}
+
+/* home-template.js */
+
+.portfolio-link {
+  font-family: 'Encode Sans SC', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #252222;
+}
+
+/* portfolio-item */
+
+.item-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-header {
+  font-family: 'Bodoni Moda', serif;
+  margin: 0;
+}
+
+/* Footer */
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: static;
+  bottom: 0;
+  background-color: #252222;
+  width: 100%;
+  margin-top: 50px;
+  padding: 40px 50px;
+}
+
+.footer-menu {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.socials-menu {
+  color: white;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
