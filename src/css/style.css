@@ -464,7 +464,7 @@ li.nav-item a:focus {
   margin-right: 40px;
   margin-left: 40px;
   max-width: 326.08px;
-  max-height: 374.32;
+  min-height: 374.32px;
 }
 
 .portfolio-container h2 {
@@ -484,12 +484,10 @@ li.nav-item a:focus {
   text-align: center;
 }
 
-.ul li{
+.ul li {
   display: flex;
   justify-content: center;
 }
-
-/* About */
 
 /* Contact */
 
