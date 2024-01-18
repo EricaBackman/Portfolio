@@ -460,7 +460,6 @@ li.nav-item a:focus {
   align-items: center;
   background-color: #c5c0c0;
   padding: 30px 30px 0px 30px;
-
   margin-bottom: 40px;
   margin-right: 40px;
   margin-left: 40px;
@@ -468,11 +467,6 @@ li.nav-item a:focus {
   max-height: 374.32;
 }
 
-/* @media (min-width: 700px) {
-  .portfolio-itemlist {
-
-  }
-} */
 .portfolio-container h2 {
   display: flex;
   justify-content: center;
