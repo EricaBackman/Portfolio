@@ -4,6 +4,7 @@ import AboutTemplate from "../templates/about-template";
 import HomeTemplate from "../templates/home-template";
 import PortfolioTemplate from "../templates/portfolio-template";
 import NotFoundTemplate from "../templates/404-template";
+import ContactTemplate from "../templates/contact-template";
 
 const Page = (props) => {
   const {data} = props;
@@ -16,6 +17,8 @@ const Page = (props) => {
         return <PortfolioTemplate {...contentfulPage} />;
       case '404':
         return <NotFoundTemplate {...contentfulPage} />;
+      case 'contact':
+        return <ContactTemplate {...contentfulPage} />;
       default:
         return <HomeTemplate {...contentfulPage} />;
     }
@@ -35,6 +38,7 @@ export const data = graphql`
         gatsbyImage(width: 2000)
       }
       template
+      button
     }
   }
 `;

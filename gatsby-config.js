@@ -14,9 +14,9 @@ require ("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby ITHS`,
-    description: `Enkel starter template för ITHS-studenter`,
-    author: `Håkan Gleissman`,
+    title: `Portfolio`,
+    description: `Portfolio built with headless CMS`,
+    author: `Erica Bäckman`,
     siteUrl: `http://dummy-site.com`,
   },
   plugins: [
