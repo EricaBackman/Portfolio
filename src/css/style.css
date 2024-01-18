@@ -365,7 +365,7 @@ li.nav-item a:focus {
 @media (min-width: 1100px) {
 
   .hero-titles {
-  top: 25%;
+  top: 30%;
   left: 45%;
   transform: none;
   z-index: 0;
@@ -460,7 +460,7 @@ li.nav-item a:focus {
   align-items: center;
   background-color: #c5c0c0;
   padding: 30px 30px 0px 30px;
- 
+
   margin-bottom: 40px;
   margin-right: 40px;
   margin-left: 40px;
