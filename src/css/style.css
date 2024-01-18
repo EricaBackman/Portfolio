@@ -362,6 +362,17 @@ li.nav-item a:focus {
   }
 }
 
+@media (min-width: 1100px) {
+
+  .hero-titles {
+  top: 25%;
+  left: 45%;
+  transform: none;
+  z-index: 0;
+  color: rgb(255, 255, 255);
+  }
+}
+
 .presentation-container {
   background-color: #252222;
   color: white;
@@ -437,7 +448,8 @@ li.nav-item a:focus {
 
 .posts {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
   background-color: #c5c0c0;
 }
 
@@ -448,8 +460,12 @@ li.nav-item a:focus {
   align-items: center;
   background-color: #c5c0c0;
   padding: 30px 30px 0px 30px;
-  border: solid #000000 1px;
+ 
   margin-bottom: 40px;
+  margin-right: 40px;
+  margin-left: 40px;
+  max-width: 326.08px;
+  max-height: 374.32;
 }
 
 /* @media (min-width: 700px) {
