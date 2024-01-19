@@ -60,7 +60,7 @@ const PortfolioPage = (contentfulPage) => {
               return (
                 <Link className="port-link" to={`/portfolio/${edge.node.slug}`}>
                   <li className="list-items" key={edge.node.id}>
-                    <h2>{edge.node.title.toUpperCase()}</h2>
+                    <h2>{edge.node.title}</h2>
                     <GatsbyImage className="portfolio-image"
                       image={edge.node.image.gatsbyImage}
                       alt={edge.node.title}
