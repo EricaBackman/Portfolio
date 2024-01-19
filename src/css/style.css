@@ -453,7 +453,8 @@ li.nav-item a:focus {
 .posts {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 30px;
+  column-gap: 50px;
+  padding: 0 30px;
   justify-content: center;
   background-color: #c5c0c0;
 }
