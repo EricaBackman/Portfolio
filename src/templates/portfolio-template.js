@@ -61,13 +61,13 @@ const PortfolioPage = (contentfulPage) => {
                 <Link className="port-link" to={`/portfolio/${edge.node.slug}`}>
                   <li className="list-items" key={edge.node.id}>
                     <h2>{edge.node.title.toUpperCase()}</h2>
-                    <GatsbyImage
+                    <GatsbyImage className="portfolio-image"
                       image={edge.node.image.gatsbyImage}
                       alt={edge.node.title}
                     >
                     </GatsbyImage>
                     <div className="list-wrapper">
-                      <p className="content content-home">{renderRichText(edge.node.content, richTextConfig)}</p>
+                      <p className="content content-home list-description">{renderRichText(edge.node.content, richTextConfig)}</p>
                     </div>
                   </li>
                 </Link>

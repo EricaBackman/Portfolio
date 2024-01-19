@@ -288,88 +288,71 @@ li.nav-item a:focus {
   .hero-titles {
   top: 15%;
   left: 40%;
-  transform: none;
-  z-index: 0;
-  color: rgb(255, 255, 255);
   }
 
   .title-first {
-    font-family: "Bodoni Moda", serif;
     font-size: 44px;
   }
 
   .title-second {
-    font-family: "Bodoni Moda", serif;
     font-size: 44px;
   }
 
   .title-third {
-    font-family: "Bodoni Moda", serif;
     font-size: 16px;
-    font-weight: 100;
   }
 }
 @media (min-width: 800px) {
 
   .hero-titles {
   top: 20%;
-  left: 50%;
-  transform: none;
-  z-index: 0;
-  color: rgb(255, 255, 255);
+  left: 40%;
   }
 
   .title-first {
-    font-family: "Bodoni Moda", serif;
     font-size: 44px;
   }
 
   .title-second {
-    font-family: "Bodoni Moda", serif;
     font-size: 44px;
   }
 
   .title-third {
-    font-family: "Bodoni Moda", serif;
     font-size: 16px;
-    font-weight: 100;
   }
 }
 @media (min-width: 900px) {
 
   .hero-titles {
-  top: 15%;
-  left: 45%;
-  transform: none;
-  z-index: 0;
-  color: rgb(255, 255, 255);
+    top: 15%;
+    left: 45%;
   }
 
   .title-first {
-    font-family: "Bodoni Moda", serif;
     font-size: 64px;
   }
 
   .title-second {
-    font-family: "Bodoni Moda", serif;
     font-size: 64px;
   }
 
   .title-third {
-    font-family: "Bodoni Moda", serif;
     font-size: 22px;
-    font-weight: 100;
   }
 }
 
 @media (min-width: 1100px) {
 
   .hero-titles {
-  top: 30%;
+  top: 20%;
   left: 45%;
-  transform: none;
-  z-index: 0;
-  color: rgb(255, 255, 255);
+  }
+}
+@media (min-width: 1200px) {
+
+  .hero-titles {
+  top: 25%;
+  left: 45%;
   }
 }
 
@@ -377,6 +360,25 @@ li.nav-item a:focus {
   background-color: #252222;
   color: white;
   padding: 20px 0;
+}
+
+@media (min-width: 700px) {
+
+  .presentation-container {
+    padding: 20px 40px;
+  }
+}
+@media (min-width: 900px) {
+
+  .presentation-container {
+    padding: 20px 100px;
+  }
+}
+@media (min-width: 1100px) {
+
+  .presentation-container {
+    padding: 20px 200px;
+  }
 }
 
 .presentation-title {
@@ -444,11 +446,14 @@ li.nav-item a:focus {
 
 .portfolio-itemlist {
   margin: 30px;
+  display: flex;
+  justify-content: center;
 }
 
 .posts {
   display: flex;
   flex-wrap: wrap;
+  column-gap: 30px;
   justify-content: center;
   background-color: #c5c0c0;
 }
@@ -459,12 +464,9 @@ li.nav-item a:focus {
   justify-content: center;
   align-items: center;
   background-color: #c5c0c0;
-  padding: 30px 30px 0px 30px;
-  margin-bottom: 40px;
-  margin-right: 40px;
-  margin-left: 40px;
+  padding: 30px 0px 0px 0px;
   max-width: 326.08px;
-  min-height: 374.32px;
+  /* min-height: 374.32px; */
 }
 
 .portfolio-container h2 {
@@ -473,22 +475,60 @@ li.nav-item a:focus {
   font-weight: 500;
   font-family: "Bodoni Moda", serif;
   margin-bottom: 20px;
+  font-size: 32px;
 }
 
 .gatsby-image-wrapper {
+  border-radius: 1px;
+}
+
+.gatsby-image-wrapper.portfolio-image {
   border: solid #252222 10px;
   border-radius: 1px;
+
 }
 
 .list-wrapper {
   text-align: center;
+  width: 100%;
 }
 
-.ul li {
+.list-description {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 5px 0 0 0;
+}
+
+.list-description p {
+  margin: 0;
+  font-family: "Bodoni Moda", serif;
+  font-size: 30px;
+}
+
+.list-description li p{
+  font-size: 20px;
+  font-family: "Encode Sans SC", sans-serif;
+  margin-bottom: 10px;
+}
+
+/* .ul li {
   display: flex;
   justify-content: center;
+} */
+
+/* About */
+
+.bild {
+  margin: 60px;
+  max-width: 900px;
 }
 
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /* Contact */
 
 .contact-container {
