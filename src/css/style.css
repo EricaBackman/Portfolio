@@ -521,8 +521,33 @@ li.nav-item a:focus {
 /* About */
 
 .bild {
-  margin: 60px;
+  margin: 40px;
   max-width: 900px;
+}
+
+@media (min-width: 700px) {
+  .bild {
+    margin: 40px;
+    max-width: 500px;
+  }
+
+  .content-about {
+    padding: 0 100px;
+  }
+}
+@media (min-width: 900px) {
+  .bild {
+    margin: 0px 60px 0px 0px;
+  }
+
+  .about-container {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .content-about {
+    padding: 0;
+  }
 }
 
 .about-container {

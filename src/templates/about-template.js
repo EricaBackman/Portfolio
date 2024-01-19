@@ -23,7 +23,7 @@ const AboutPage = (contentfulPage) => {
       <meta name="description" content="This is a page about me, my accomplishments in my carrier and my skills, both soft and hard." />
     </Helmet>
     <div className="about-container home-container">
-    <p className="content content-home">{renderRichText(contentfulPage.content, richTextConfig)}</p>
+    <p className="content content-home content-about">{renderRichText(contentfulPage.content, richTextConfig)}</p>
 
     <GatsbyImage className="bild"
     image={contentfulPage.image.gatsbyImage}
