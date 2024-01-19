@@ -23,7 +23,7 @@ const IndexPage = (contentfulPage) => {
         <meta name="description" content="This is a firstpage." />
       </Helmet>
       <div className="home-container">
-      <p className="content content-home">{renderRichText(contentfulPage.content, richTextConfig)}</p>
+      <p className="content content-home home">{renderRichText(contentfulPage.content, richTextConfig)}</p>
       <div className="button-container">
       <button className="button" type="button"><Link to="/portfolio">{contentfulPage.button}</Link></button>
       </div>
